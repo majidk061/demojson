@@ -1,81 +1,70 @@
 {
-  "eq": {
-            "data": {
-              "action": "EQUIPMENT", 
-              "bookingId": "BRXXXXX1234567890", 
-              "portCode": "NZAKL",
-              "cargoLines": [
-                {
-                   "cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C", 
-                   "equipmentSizeType": "40HC", 
-                     "cargoType": "TO BE UPDATED",
-                   "status": "G" 
-                }
-              ]
-            }
-          },
-  "cam": {
-	"data": {
-	  "action": "CAM", 
-	  "bookingId": "BRXXXXX1234567890", 
-	  "customerId": "2021020964",
-	  "etd": "2022-09-23",
-	  "cargoLines": [
-			{
-			   "cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",  
-			   "shippingTerms": "TO BE UPDATED By Ashish"
-			   "origin": "NZAKL",
-	 	       "destination": "NZLYT",
-     		   "containerSupplied": "TO BE UPDATED By Ashish",
-			   "containerType": "40HC",
-			   "commodity": "TO BE UPDATED By Ashish",
-			   "volumeTEU": 1000,
-			   "agreementNumber": "000000001",
-			   "agreementAvailableVolumeTEU": 700, 
-			   "agreementCreatedBy": "John Deo",
-			   "agreementFromDate":"YYYY-MM-DD",
-			   "agreementToDate":"YYYY-MM-DD",
-			   "agreementVolumeAgreedTEU": 1000,  
-			   "agreementTotalBookedTEU": 500
-			}
-		]
-	}
-},
-  "cap": {
-	"data": {
-	  "action": "CAP", 
-	  "bookingId": "BRXXXXX1234567890", 
-	  "routingLegs": [
-		{
-			"serviceCode": "",
-			"vesselCode": "",
-			"voyageNumber": "",
-			"direction": "",
-			"loadPort": "NZAKL",
-			"loadPortCargoLine": [
-				{
-				   "cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",  
-				   "equipmentSizeType": "40HC",
-				   "cargoType": "TO BE UPDATED By Niraj",
-				   "volumeTEU": 1000,
-				    "statusMoveCount": "G",
-     				"statusThreshold": "G"
-				}
-			],
-			"dischargePort": "NZLYT",
-			"dischargePortCargoLine": [
-				{
-				   "cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",  
-				   "equipmentSizeType": "40HC",
-				   "cargoType": "TO BE UPDATED By Niraj",
-				   "volumeTEU": 1000,
-				   "statusMoveCount": "G",
-     			   "statusThreshold": "G"
-				}
-			],
+	"eq": {
+		"data": {
+			"action": "EQUIPMENT",
+			"bookingId": "BRXXXXX1234567890",
+			"portCode": "NZAKL",
+			"cargoLines": [{
+				"cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",
+				"equipmentSizeType": "40HC",
+				"cargoType": "TO BE UPDATED",
+				"status": "G"
+			}]
 		}
-	  ] 
+	},
+	"cam": {
+		"data": {
+			"action": "CAM",
+			"bookingId": "BRXXXXX1234567890",
+			"customerId": "2021020964",
+			"etd": "2022-09-23",
+			"cargoLines": [{
+				"cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",
+				"shippingTerms": "TO BE UPDATED By Ashish",
+				"origin": "NZAKL",
+				"destination": "NZLYT",
+				"containerSupplied": "TO BE UPDATED By Ashish",
+				"containerType": "40HC",
+				"commodity": "TO BE UPDATED By Ashish",
+				"volumeTEU": 1000,
+				"agreementNumber": "000000001",
+				"agreementAvailableVolumeTEU": 700,
+				"agreementCreatedBy": "John Deo",
+				"agreementFromDate": "YYYY-MM-DD",
+				"agreementToDate": "YYYY-MM-DD",
+				"agreementVolumeAgreedTEU": 1000,
+				"agreementTotalBookedTEU": 500
+			}]
+		}
+	},
+	"cap": {
+		"data": {
+			"action": "CAP",
+			"bookingId": "BRXXXXX1234567890",
+			"routingLegs": [{
+				"serviceCode": "",
+				"vesselCode": "",
+				"voyageNumber": "",
+				"direction": "",
+				"loadPort": "NZAKL",
+				"loadPortCargoLine": [{
+					"cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",
+					"equipmentSizeType": "40HC",
+					"cargoType": "TO BE UPDATED By Niraj",
+					"volumeTEU": 1000,
+					"statusMoveCount": "G",
+					"statusThreshold": "G"
+				}],
+				"dischargePort": "NZLYT",
+				"dischargePortCargoLine": [{
+					"cargoKey": "SBCYQ1F9JO9S8N28TFGMG1C",
+					"equipmentSizeType": "40HC",
+					"cargoType": "TO BE UPDATED By Niraj",
+					"volumeTEU": 1000,
+					"statusMoveCount": "G",
+					"statusThreshold": "G"
+				}]
+			}]
+		}
 	}
 }
-}
-
